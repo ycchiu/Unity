@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kabam_soda_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/kabam_soda_footer_darkgray"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/kabam_soda_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/kabam_soda_menurewards_title"
+        android:src="@drawable/kabam_soda_footer_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kabam_soda_logo" >
+
+        <TextView
+            android:id="@+id/kabam_soda_footer_link_terms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:textColor="@color/kabam_soda_link_darkorange"
+            android:textColorLink="@color/kabam_soda_link_darkorange" />
+
+    </LinearLayout>
+
+</RelativeLayout>

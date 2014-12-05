@@ -1,0 +1,9 @@
+{
+    "uiAtlasPaths":
+    [
+        {
+            "src": "UI/Atlases/{0}UiAtlasPrefab",
+            "dst": "UI/Atlases/RefUiAtlasPrefab"
+        }
+    ]
+}

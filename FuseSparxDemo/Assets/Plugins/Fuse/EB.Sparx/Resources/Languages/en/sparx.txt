@@ -1,0 +1,64 @@
+ID_SPARX_ERROR_UNKNOWN,An unknown error has occurred. Please try again later.
+ID_SPARX_ERROR_INVALID_CREDENTIALS,Your email or password was entered incorrectly
+ID_SPARX_ERROR_NAME_SHORT,Name must be between 3 and 12 characters
+ID_SPARX_ERROR_NAME_TAKEN,Name has already been taken
+ID_SPARX_ERROR_NAME_INVALID,Name contains invalid characters
+ID_SPARX_ERROR_PASSWORD_LENGTH,Password must be at least 7 characters,
+ID_SPARX_ERROR_PASSWORDS_DONT_MATCH,Passwords don't match
+ID_SPARX_ERROR_ACCOUNT_EXISTS,Account already exists. Please login.
+ID_SPARX_ERROR_ACCOUNT_DOESNT_EXISTS,Account does not exist
+ID_SPARX_ERROR_INVALID_EMAIL,Please enter a valid email address.
+ID_SPARX_ERROR_NOT_CONNECTED,Could not connect to the Internet. Please check your connection and try again.
+ID_SPARX_ERROR_SESSION,Your session has timed out. You will now be returned to the home screen.
+ID_SPARX_ERROR_FAILED_DNS,Failed to resolve network address. Please check your network settings and try again.
+ID_SPARX_ERROR_MASTER_SERVER_UNKNOWN,Failed to find master server for private game.
+ID_SPARX_ERROR_NOT_JOINABLE,Failed to join game. The game has already started.
+ID_SPARX_ERROR_LOST_CONNECT,The connection to the game was lost
+ID_SPARX_ERROR_JOIN_GAME,Failed to join game. Please check your network settings and try again.
+ID_SPARX_ERROR_GAME_KICKED,You have been kicked from the game.
+ID_SPARX_ERROR_NOFREEGAMES,All servers are full. Please try again later.
+ID_SPARX_ERROR_DUPLICATE_LOGIN,You have been logged out because signed in on another device.
+ID_SPARX_ERROR_MUST_BE_LOGGED_IN,You must be signed in to to purchase items.
+ID_SPARX_ERROR_FAILED_TO_VERIFY_PAYMENT,Failed to verify payment. Please try again later.
+ID_SPARX_ERROR_PROFANITY,Profanities are not allowed.
+ID_SPARX_ERROR_GAME_LOST_CONNECTION,You have lost connection to the game.
+ID_SPARX_ERROR_FACEBOOK,Failed to fetch information from Facebook. Please try again.
+ID_SPARX_ERROR_FACEBOOK_INIT,Facebook failed to initialize.
+ID_SPARX_ERROR_EMAIL_RESET,An email has been sent to {0} with instructions to reset your password.
+ID_SPARX_ERROR_FACEBOOK_CANCELED,Login with Facebook has been canceled.
+ID_SPARX_ERROR_FACEBOOK,Failed to login with Facebook. Please try again later.
+ID_SPARX_ERROR_FACEBOOK_APP_BLOCKED,You have blocked us from accessing your Facebook data.  Please unblock and try again later.
+
+ID_SPARX_CONTENT_CHECKING,Checking for new content
+ID_SPARX_CONTENT_DOWNLOAD_PROGRESS, Downloading file {0} of {1}: {2}%
+ID_SPARX_CONTENT_EXTRACTING,Extracting new content
+ID_SPARX_CONTENT_FAILED,Failed to download content. Please check your internet settings and try again.
+ID_SPARX_CONTENT_FAILED_EXTRACT,Failed to download content. Please make sure that you have at least 500MB free on your device.
+ID_SPARX_CONTENT_RETRY,Retry
+
+ID_SPARX_OBB_ERROR,Failed to download expansion pack. External storage is not available.
+
+ID_SPARX_ERROR_MIN_VERSION,A new version is required to play online. Please update the application.
+ID_SPARX_ERROR_BANNED,Busted Buster! Why are you cheating? You're disappointing the family.
+ID_SPARX_ERROR_TEMP_BANNED,Your account has been banned for {0} hours.
+ID_SPARX_ERROR_REASON,Reason: {0}
+
+ID_SPARX_ERROR_FACEBOOK_TOKEN,Failed to get Facebook Access Token. Please try again later.
+ID_SPARX_ERROR_FACEBOOK_TOKEN_POST_LOGIN,Failed to get Facebook Access Token after login. Please try again later.
+ID_SPARX_ERROR_FACEBOOK_INITIALIZE,Failed to initialize Facebook SDK. Please try again later.
+ID_SPARX_ERROR_FACEBOOK_SDK,Facebook SDK error.
+ID_SPARX_ERROR_FACEBOOK_LOGIN,Failed to login to Facebook. Error: {0}
+ID_SPARX_ERROR_FACEBOOK_EMAIL,Failed to get valid email permission from Facebook. Please make sure you have a valid email and try logging in.
+ID_SPARX_ERROR_FACEBOOK_NORESPONSE,No valid response from Facebook.
+
+ID_SPARX_LOGIN_ACCOUNT_SELECT,Account Select
+ID_SPARX_LOGIN_PREVIOUS,You played this game on another device, would you like to continue your game or start a new game?
+ID_SPARX_LOGIN_CONTINUE,Continue
+ID_SPARX_LOGIN_NEW,Start New
+
+
+
+
+
+
+

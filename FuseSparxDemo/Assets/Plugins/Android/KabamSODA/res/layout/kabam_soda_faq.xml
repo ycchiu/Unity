@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kabam_soda_dialog_frame"
+    android:padding="1dp"
+    tools:context=".FaqFragment" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/kabam_soda_faq_title" >
+
+        <TextView
+            android:id="@+id/kabam_soda_faq_title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/kabam_soda_faq_close_button"
+            android:gravity="center"
+            android:textColor="@color/kabam_soda_white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/kabam_soda_faq_close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="false"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/kabam_soda_black"
+            android:contentDescription="X"
+            android:src="@drawable/kabam_soda_x" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/kabam_soda_faqListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@color/kabam_soda_lightgray"
+        android:choiceMode="singleChoice"
+        android:divider="@color/kabam_soda_offblack"
+        android:dividerHeight="1dp"
+        android:smoothScrollbar="true" >
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rewards="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/kabam_soda_menuinfo"
+        android:icon="@drawable/kabam_soda_ic_info"
+        android:title="@string/kabam_soda_menuinfo_title"
+        rewards:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@+id/kabam_soda_menuinfo_howitworks"
+                android:title="@string/kabam_soda_menuinfo_howitworks"
+                />
+            <item
+                android:id="@+id/kabam_soda_menuinfo_faq"
+                android:title="@string/kabam_soda_menuinfo_faq"
+                />
+            <item
+                android:id="@+id/kabam_soda_menuinfo_support"
+                android:title="@string/kabam_soda_menuinfo_support"
+                />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/kabam_soda_menuoptions"
+        android:icon="@drawable/kabam_soda_ic_drawer"
+        android:title="@string/kabam_soda_menuoptions_title"
+        rewards:showAsAction="always">
+    </item>
+
+</menu>

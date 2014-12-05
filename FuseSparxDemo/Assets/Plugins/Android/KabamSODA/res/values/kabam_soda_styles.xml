@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Kabam" parent="@style/Theme.AppCompat">
+        <item name="actionBarItemBackground">@drawable/kabam_soda_selectable_background_kabam</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Kabam</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Kabam</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Kabam</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Kabam</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Kabam</item>
+        <item name="actionModeBackground">@drawable/kabam_soda_cab_background_top_kabam</item>
+        <item name="actionModeSplitBackground">@drawable/kabam_soda_cab_background_bottom_kabam</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Kabam</item>
+        <item name="homeAsUpIndicator">@drawable/kabam_soda_spacer_12x24</item>
+    </style>
+
+    <style name="ActionBar.Solid.Kabam" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/kabam_soda_ab_solid_kabam</item>
+        <item name="backgroundStacked">@drawable/kabam_soda_ab_stacked_solid_kabam</item>
+        <item name="backgroundSplit">@drawable/kabam_soda_ab_bottom_solid_kabam</item>
+        <item name="progressBarStyle">@style/ProgressBar.Kabam</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Kabam" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/kabam_soda_ab_transparent_kabam</item>
+        <item name="progressBarStyle">@style/ProgressBar.Kabam</item>
+    </style>
+	
+    <style name="PopupMenu.Kabam" parent="@style/Widget.AppCompat.PopupMenu">	
+        <item name="android:popupBackground">@drawable/kabam_soda_menu_dropdown_panel_kabam</item>	
+    </style>
+	
+    <style name="DropDownListView.Kabam" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/kabam_soda_selectable_background_kabam</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Kabam" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/kabam_soda_tab_indicator_ab_kabam</item>
+    </style>
+	
+    <style name="DropDownNav.Kabam" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/kabam_soda_spinner_background_ab_kabam</item>
+        <item name="android:popupBackground">@drawable/kabam_soda_menu_dropdown_panel_kabam</item>
+        <item name="android:dropDownSelector">@drawable/kabam_soda_selectable_background_kabam</item>
+    </style>
+    
+    <style name="ProgressBar.Kabam" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/kabam_soda_progress_horizontal_kabam</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Kabam" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/kabam_soda_btn_cab_done_kabam</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Kabam.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Kabam</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Kabam</item>
+    </style>
+    
+        <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="KabamSodaAlertDialog" parent="android:Theme.Holo">
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowBackground">@drawable/kabam_soda_dialog_shadow</item>
+    </style>
+
+    <style name="KabamSodaMenuTheme" parent="android:Theme.Holo">
+        <!-- Style for the menu layouts -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="KabamSodaRewardsSummaryPoints">
+        <item name="android:textColor">@color/kabam_soda_white</item>
+        <item name="android:textSize">36dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="KabamSodaRewardsSummaryUpdated">
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+    
+    <!-- List View Themes -->
+    <style name="KabamSodaRewardsPointsListHeader">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/kabam_soda_offwhite</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="KabamSodaRewardsPointsListItem">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/kabam_soda_white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    
+    <style name="KabamSodaRewardsRedeemListHeader">
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:textColor">@color/kabam_soda_white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="KabamSodaRewardsRedeemListItem">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/kabam_soda_white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    
+    <style name="KabamSodaNavDrawerListItem">
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/kabam_soda_white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="KabamSodaRewardsNotificationDialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="rewards_notification_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+{
+  "group": "KabamSODA",
+  "patches": [],
+  "libs": [
+  ],
+  "librarysearchpaths": [
+  ],
+  "frameworksearchpaths": [
+    "Plugins/KabamSODA/iOS/"
+  ],
+  "frameworks": [
+    "Foundation.framework:weak",
+    "StoreKit.framework:weak",
+    "MobileCoreServices.framework:weak",
+    "SystemConfiguration.framework:weak",
+    "iAd.framework:weak",
+    "AdSupport.framework:weak",
+    "CoreTelephony.framework:weak",
+    "Security.framework:weak"
+  ],
+  "headerpaths": [
+  ],
+  "files": [
+    "Plugins/KabamSODA/iOS/UnityMessage.h",
+    "Plugins/KabamSODA/iOS/UnityMessage.m",
+    "Plugins/KabamSODA/iOS/UnityMessageQueue.h",
+    "Plugins/KabamSODA/iOS/UnityMessageQueue.m"
+    "Plugins/KabamSODA/iOS/KabamSODAUnity.h",
+    "Plugins/KabamSODA/iOS/KabamSODAUnity.mm",
+    "Plugins/KabamSODA/iOS/Soda.framework"
+  ],
+  "folders": [
+  ],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

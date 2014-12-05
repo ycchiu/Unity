@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="login_options">
+        <item>Login with Facebook</item>
+        <item>Login with Google</item>
+        <item>Cancel Login</item>
+    </array>
+
+</resources>

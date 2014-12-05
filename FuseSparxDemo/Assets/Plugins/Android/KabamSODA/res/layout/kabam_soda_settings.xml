@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kabam_soda_settings_layout"
+    style="@style/KabamSodaMenuTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kabam_soda_setting_gray" >
+
+    <TextView
+        android:id="@+id/kabam_soda_settings_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/kabam_soda_settings_fragment_container_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <FrameLayout
+        android:id="@+id/kabam_soda_settings_fragment_container_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp" />
+
+</RelativeLayout>

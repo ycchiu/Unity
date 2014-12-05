@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script_sceneManager.js">
+    <Files>
+      <File FileName="Assets/script_player.js" Line="1" Column="1" />
+      <File FileName="Assets/script_player.js" Line="28" Column="68" />
+      <File FileName="Assets/script_astroid.js" Line="6" Column="17" />
+      <File FileName="Assets/script_bullet.js" Line="1" Column="1" />
+      <File FileName="Assets/script_sceneManager.js" Line="20" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,93 @@
+<resources>
+    <!-- BEGIN: Used only internally and dont need translations on xlate -->
+    <string name="kabam_soda_drawer_open">Open navigation drawer</string>
+    <string name="kabam_soda_drawer_close">Close navigation drawer</string>
+    <string name="kabam_soda_menuinfo_title">Info</string>
+    <string name="kabam_soda_menuoptions_title">Options</string>
+    <string name="kabam_soda_rewards_listitem">Redeem Item</string>
+    <string name="kabam_soda_rewards_listitem_cost">Redeem Item Cost</string>
+    <string name="kabam_soda_rewards_listitem_icon">Redeem Item Image</string>
+    <string name="kabam_soda_rewards_listitem_title">Redeem Item Title</string>
+    <string name="kabam_soda_support_link">http://kabam.force.com/PKB/</string>
+    <!-- END: Used only internally and dont need translations on xlate -->
+    <string name="kabam_soda_menurewards_title">Kabam Rewards</string>
+    <string name="kabam_soda_menuoptions_getmoregames">Get More Games</string>
+    <string name="kabam_soda_menuoptions_settings">Settings</string>
+    <string name="kabam_soda_fte_text1"><b><font color="#FDB812">PLAY</font></b> your favorite Kabam games</string>
+    <string name="kabam_soda_fte_text2"><b><font color="#FDB812">EARN</font></b> points for every day you play and every dollar spent</string>
+    <string name="kabam_soda_fte_text3"><b><font color="#FDB812">REDEEM</font></b> your points for valuable in-game currency!</string>
+    <string name="kabam_soda_fte_text4">Here\'s 500 points to get you started!</string>
+    <string name="kabam_soda_fte_buttonredeem">Check It Out</string>
+    <string name="kabam_soda_howitworks_buttonredeem">Check It Out</string>
+    <string name="kabam_soda_settings_title">Settings</string>
+    <string name="kabam_soda_settings_text">Your Connections</string>
+    <string name="kabam_soda_settings_buttonfacebook">Log In with Facebook</string>
+    <string name="kabam_soda_settings_linkfacebook">Disconnect from Facebook</string>
+    <string name="kabam_soda_settings_buttongoogle">Log In with Google+</string>
+    <string name="kabam_soda_settings_linkgoogle">Disconnect from Google+</string>
+    <string name="kabam_soda_login_errortitle">Oops!</string>
+    <string name="kabam_soda_login_errormessage">Something went wrong.\n\nPlease try again later.</string>
+    <string name="kabam_soda_login_errorclose">OK</string>
+    <string name="kabam_soda_menuinfo_howitworks">How It Works</string>
+    <string name="kabam_soda_menuinfo_faq">FAQ</string>
+    <string name="kabam_soda_menuinfo_support">Support</string>
+    <string name="kabam_soda_support_title">Go to Feedback?</string>
+    <string name="kabam_soda_support_text">You can always come back to your game later, but any unsaved progress may be lost.</string>
+    <string name="kabam_soda_support_buttonok">OK, Let\'s Go</string>
+    <string name="kabam_soda_support_buttoncancel">No Thanks</string>
+    <string name="kabam_soda_faq_question1"><b>What is Kabam Rewards?</b></string>
+    <string name="kabam_soda_faq_answer1">With Kabam Rewards you earn points for simply playing any qualifying Kabam game each day or making purchases in any qualified Kabam game. Currently, the program is in beta. Your points can be redeemed for packages of in-game currency by going to the Redeem Points screen of any participating Kabam game. See the \"Participating Games\" FAQ for a list of games.</string>
+    <string name="kabam_soda_faq_question2"><b>How do I earn points?</b></string>
+    <string name="kabam_soda_faq_answer2">You earn points by playing games daily and by making purchases in participating Kabam Mobile games. \n\nEarn 5 points for every day that you play. Earn 10 points for every $1 (US Dollar) you spend on a purchase of in-game currency . We\'ll even give you DOUBLE POINTS on your first purchase as a Rewards Program member and on any purchase over $49.00.</string>
+    <string name="kabam_soda_faq_question3"><b>How do I redeem my points?</b></string>
+    <string name="kabam_soda_faq_answer3">Your points can easily be redeemed for in-game currency by going to the Redeem Points screen. \"Greyed-out\" packages indicate that you do not have enough points to redeem that package. \n\nFrom the Redeem Points screen select the package you\'d like to add. Once your in-game currency shows up in your game account, use it to wreak havoc on your enemies. \n\nNot enough points just yet? Don\'t worry, your points add up quickly, so be sure to check your balance often to see when it\'s time for you to redeem!</string>
+    <string name="kabam_soda_faq_question4"><b>Is there a place where I can make a suggestion or contact someone for help?</b></string>
+    <string name="kabam_soda_faq_answer4">If you are experiencing an issue with Kabam Rewards or would like to make a suggestion please [Contact us link].  We have created the program for you and would love to hear what you think about it!</string>
+    <string name="kabam_soda_faq_question5"><b>Why doesn\'t everyone have access to Kabam Rewards?</b></string>
+    <string name="kabam_soda_faq_answer5">The program is in Beta so that we can get valuable feedback from our players such as yourself and make the program even better. If you would like to make a suggestion please [Contact us link]</string>
+    <string name="kabam_soda_faq_question6"><b>Do my Kabam Rewards points expire?</b></string>
+    <string name="kabam_soda_faq_answer6">Points expire after your account has been inactive for a year.</string>
+    <string name="kabam_soda_faq_question7"><b>I just logged into a game or made a purchase, but I do not see my points yet - when will I get them?</b></string>
+    <string name="kabam_soda_faq_answer7">Please allow up to 24 hours for your points to be delivered to your account. If it\'s been over 24 hours and you have not received your points please let us know by [Contact us link]</string>
+    <string name="kabam_soda_rewards_summary">Point Balance</string>
+    <string name="kabam_soda_rewards_tab1">Redeem Points</string>
+    <string name="kabam_soda_rewards_tab2">My Rewards</string>
+    <string name="kabam_soda_rewards_listheader1">Rewards Package</string>
+    <string name="kabam_soda_rewards_listheader2">Points</string>
+    <string name="kabam_soda_rewards_listitem_button">Redeem</string>
+    <string name="kabam_soda_rewards_footerlink">&lt;a href="https://www.kabam.com/rewards/terms"&gt;Kabam Rewards Terms of Service&lt;/a&gt;</string>
+    <string name="kabam_soda_rewards_loading">Loading...</string>
+    <string name="kabam_soda_rewards_failure">No rewards found</string>
+    <string name="kabam_soda_redeem_successtitle">Success!</string>
+    <string name="kabam_soda_redeem_authclose">Close</string>
+    <string name="kabam_soda_redeem_authinstructions">Log in to your account to redeem rewards.</string>
+    <string name="kabam_soda_redeem_authterms">By proceeding, you indicate that you have read and agree to the &lt;a href="https://www.kabam.com/rewards/terms"&gt;Kabam Rewards Terms of Service&lt;a/&gt;</string>
+    <string name="kabam_soda_redeem_authtitle">Login</string>
+    <string name="kabam_soda_redeem_successmessage"><![CDATA[<b><font color="#00DD00">SUCCESS!</font></b> Your rewards will appear in your inventory shortly.]]></string>
+    <string name="kabam_soda_redeem_successclose">Thanks</string>
+    <string name="kabam_soda_redeem_failuretitle">We\'re Sorry</string>
+    <string name="kabam_soda_redeem_failuremessage">We were unable to redeem your points at this time.  If you continue to have problems, please contact Support.</string>
+    <string name="kabam_soda_redeem_failurecancel">Cancel</string>
+    <string name="kabam_soda_redeem_failureretry">Try Again</string>
+    <string name="kabam_soda_confirmredeem_title"><b>Confirm your reward</b></string>
+    <string name="kabam_soda_confirmredeem_currentpoints">Current Balance:</string>
+    <string name="kabam_soda_confirmredeem_cost">Purchase total:</string>
+    <string name="kabam_soda_confirmredeem_balance">New Balance:</string>
+    <string name="kabam_soda_confirmredeem_submit">Redeem Now</string>
+    <string name="kabam_soda_yourpoints_listheader1">Date</string>
+    <string name="kabam_soda_yourpoints_listheader2">Activity</string>
+    <string name="kabam_soda_yourpoints_listheader3">Points</string>
+    <string name="kabam_soda_notification_redeem">Redeem</string>
+    <string name="kabam_soda_maintenance_title">Maintenance Mode</string>
+    <string name="kabam_soda_maintenance_message">Kabam services are currently undergoing maintenance.</string>
+    <string name="kabam_soda_marketingemail_title">Confirm your e-mail</string>
+    <string name="kabam_soda_marketingemail_hint">Email Address</string>
+    <string name="kabam_soda_marketingemail_text">Sign-up now for special offers, bonus rewards and cool extras plus we\'ll give you 500 Points!</string>
+    <string name="kabam_soda_marketingemail_checkbox">Yes! I want to receive email from Kabam Rewards.</string>
+    <string name="kabam_soda_marketingemail_buttonskip">No Thanks</string>
+    <string name="kabam_soda_marketingemail_buttonok">Sign Up</string>
+    <string name="kabam_soda_error_invalidauthtoken">We\'re sorry, there is already an account connected to this Facebook/G+ account. Please connect to another Facebook/G+ account or select another method to continue. For questions please submit a support ticket.</string>
+    <string name="kabam_soda_error_mustbeonline">You must be online to connect to Google+ or Facebook</string>
+    <string name="kabam_soda_error_noconnection">Please check your network connection and try again later</string>
+    <string name="kabam_soda_error_noconnectiontitle">Connection error</string>
+</resources>

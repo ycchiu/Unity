@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules" >
+
+    <target name="-post-package" >
+
+        <zip destfile="${out.dir}/android-support-v7-appcompat.jar" >
+            <zipgroupfileset
+                dir="./" 
+                includes="${out.dir}/classes.jar" />
+        </zip>
+
+    </target>
+
+</project>
+

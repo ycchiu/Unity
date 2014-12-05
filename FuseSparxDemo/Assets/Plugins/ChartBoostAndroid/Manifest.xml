@@ -1,0 +1,17 @@
+<!-- ACTIVITIES -->
+		<activity android:name="com.chartboost.sdk.CBDialogActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:windowSoftInputMode="adjustResize"
+			android:theme="@android:style/Theme.Translucent"
+			android:launchMode="singleTop">
+		</activity>
+		<activity android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+
+<!-- META-DATA -->
+
+
+
+<!-- PERMISSIONS -->
+		<uses-permission  android:name="android.permission.INTERNET"/>
+

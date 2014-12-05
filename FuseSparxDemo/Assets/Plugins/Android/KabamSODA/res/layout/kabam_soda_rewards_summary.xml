@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kabam_soda_rewardsSummary"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@drawable/kabam_soda_chestbg_bitmap"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/kabam_soda_tvSummary"
+        style="@style/KabamSodaRewardsSummaryUpdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:gravity="right"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:id="@+id/kabam_soda_tvPointsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kabam_soda_tvSummary"
+        android:layout_marginRight="10dp"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/kabam_soda_tvPoints"
+            style="@style/KabamSodaRewardsSummaryPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:includeFontPadding="false"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/kabam_soda_badgeMedium"
+            android:layout_width="22dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="6dp"
+            android:gravity="right"
+            android:src="@drawable/kabam_soda_rewards_badge_md" />
+    </LinearLayout>
+
+</RelativeLayout>

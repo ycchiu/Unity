@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <!-- ga_trackingId is set programatically in the Analytics class by environment -->
+  <string name="ga_trackingId">UA-17595911-20</string>
+  <string name="ga_appName">com.kabam.soda</string>
+  <string name="ga_appVersion">0</string>
+  <bool name="ga_debug">true</bool>
+  <!--  in seconds. default is 30 minutes -->
+  <integer name="ga_dispatchPeriod">1800</integer><!-- in seconds -->
+  <bool name="ga_autoActivityTracking">true</bool>
+  <bool name="ga_reportUncaughtExceptions">true</bool>
+  <!-- The screen names that will appear in your reporting -->
+  <!-- 
+  TODO: See if we can map friendlier names than "FooFragment"
+  This did not seem to function with fragments.
+  Ref: https://developers.google.com/analytics/devguides/collection/android/v3/screens
+  -->
+  <string name="FaqFragment">Kabam Rewards, FAQ</string>
+  <string name="FeedbackFragment">Kabam Rewards, Feedback</string>
+  <string name="GetMoreGamesFragment">Get More Games</string>
+  <string name="HowItWorksFragment">Kabam Rewards, How It Works</string>
+  <string name="com.kabam.soda.SodaActivity">Soda Activity</string>
+  <string name="RedeemFragment">Kabam Rewards, Redeem</string>
+  <string name="SettingsConnectFragment">Soda Settings</string>
+  <string name="YourPointsFragment">Kabam Rewards, Your Points</string>
+</resources>

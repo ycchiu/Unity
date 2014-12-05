@@ -1,0 +1,2 @@
+local onGachaComplete = ObjectManager.CreateScriptDelegate( "error, result", "print( \"GachaResult\"); print( error );print( result.SoftCurrentToPay );print( result.XpToGive );local items = result.Items; print( #items ); for i, item in ipairs(items) do print( item.RewardType, item.RewardData, item.RewardCount );end" );
+Hub.GachaManager.PickFromBox( "base", "default", "base_bronze", "token", onGachaComplete );

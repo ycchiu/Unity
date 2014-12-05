@@ -1,0 +1,26 @@
+[
+	{
+		"folder":"Assets/Resources/Bundles/watermark",
+		"id":"watermark",
+		"type":"copy"
+	},
+	
+	{
+		"folder":"Assets/Bundles/movies",
+		"id":"movies",
+		"type":"copy"
+	},
+	
+	{
+		"folder":"Assets/Bundles/movies",
+		"id":"movies_standalone",
+		"type":"ogg"
+	},
+	
+	{
+		"folder":"Assets/Resources/Bundles/audio"
+		"id":"audio",
+		"type":"standard"
+	}
+	
+]

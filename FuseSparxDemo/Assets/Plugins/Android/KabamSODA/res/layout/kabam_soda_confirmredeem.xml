@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:contentDescription="Confirm redeem dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#444"
+    android:minHeight="294dp" >
+
+    <TextView
+        android:id="@+id/kabam_soda_redeemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/kabam_soda_white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/kabam_soda_imageView1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/kabam_soda_redeemTitle"
+        android:layout_below="@+id/kabam_soda_redeemTitle"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Image - redeem_item_placeholder"
+        android:scaleType="center"
+        android:src="@drawable/kabam_soda_redeem_item_placeholder" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/kabam_soda_imageView1"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/kabam_soda_imageView1"
+        android:text="Item Desc Here"
+        android:textColor="@color/kabam_soda_white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/kabam_soda_imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_below="@+id/kabam_soda_imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Chest background"
+        android:scaleType="center"
+        android:src="@drawable/kabam_soda_chestbg"
+        android:tint="#AA000000" />
+
+    <ImageView
+        android:id="@+id/kabam_soda_imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/kabam_soda_imageView2"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="Game art"
+        android:src="@drawable/kabam_soda_gameart" />
+
+    <ImageButton
+        android:id="@+id/kabam_soda_imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="X"
+        android:src="@drawable/kabam_soda_x" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvCurrentPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/kabam_soda_imageView2"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#CCC"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/kabam_soda_tvCurrentPoints"
+        android:layout_below="@+id/kabam_soda_tvCurrentPoints"
+        android:textColor="#FF4E00"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/kabam_soda_tvCost"
+        android:layout_below="@+id/kabam_soda_tvCost"
+        android:layout_marginTop="10dp"
+        android:textColor="#CCC"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/kabam_soda_btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kabam_soda_tvItemTitle"
+        android:layout_alignRight="@+id/kabam_soda_tvBalance"
+        android:layout_below="@+id/kabam_soda_tvBalance"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/kabam_soda_white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvCurrentPointsDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kabam_soda_btnSubmit"
+        android:layout_alignBaseline="@+id/kabam_soda_tvCurrentPoints"
+        android:layout_alignBottom="@+id/kabam_soda_tvCurrentPoints"
+        android:layout_marginRight="35dp"
+        android:textColor="#CCC"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvCostDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kabam_soda_tvCurrentPointsDesc"
+        android:layout_alignBaseline="@+id/kabam_soda_tvCost"
+        android:layout_alignBottom="@+id/kabam_soda_tvCost"
+        android:textColor="#CCC"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/kabam_soda_tvBalanceDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kabam_soda_tvCurrentPointsDesc"
+        android:layout_alignBaseline="@+id/kabam_soda_tvBalance"
+        android:layout_alignBottom="@+id/kabam_soda_tvBalance"
+        android:textColor="#CCC"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/kabam_soda_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/kabam_soda_btnSubmit"
+        android:layout_alignLeft="@id/kabam_soda_btnSubmit"
+        android:layout_alignTop="@id/kabam_soda_btnSubmit"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/kabam_soda_noThanksContainer"
+        android:contentDescription="No thanks area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/kabam_soda_imageView2">
+
+        <ImageView
+            android:id="@+id/kabam_soda_imageViewBackArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="Back arrow"
+            android:src="@drawable/kabam_soda_back_arrow" />
+
+        <TextView
+            android:id="@+id/kabam_soda_tvNoThanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/kabam_soda_imageButtonBackArrow"
+            android:textColor="#CCCCCC"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

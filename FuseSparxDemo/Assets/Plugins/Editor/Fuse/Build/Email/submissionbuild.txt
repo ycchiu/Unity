@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<style>
+			* {
+				font-family:'Helvetica','Arial';
+			}
+
+			dl {
+				overflow:auto;
+				width:300px;
+				background-color:#eee;
+				border:1px solid #ddd;
+			}
+			dt {
+				padding:0;
+				margin:0;			
+				float:left;
+				text-align:right;
+				width:150px;
+				margin-top:5px;			
+				margin-bottom:5px;
+				font-weight:bold;
+
+			}
+
+			dd {
+				padding:0;
+				margin:0;
+				float:left;
+				padding-left:10px;
+				width:140px;
+				margin-top:5px;				
+				margin-bottom:5px;
+				clear:right;
+				color:#666;
+
+			}
+
+			table {
+				border:1px solid #ddd;
+				border-collapse:collapse;
+			}
+
+			table thead {
+
+			}
+			td {
+				text-align:right;
+			}
+
+			table,th, td
+			{
+			border-bottom: 1px solid #ddd;
+			}
+
+			td,th {
+				padding:3px 15px;
+			}
+
+			tbody tr:nth-child(even) {
+				background-color:white;
+			}
+
+			tbody tr:nth-child(odd) {
+				background-color:#eee;
+			}		
+
+			.green {
+				color:green;
+			}
+			.red {
+				color:red;
+			}		
+
+		</style>
+	</head>
+	<body>
+		<h1>Submission Build Published: <%= title %></h1>
+		
+		Build Size: <%- size.toFixed(2) %> MB<br>
+		IPA: <a href="<%= ipaUrl %>"><%= ipaUrl %></a></br>
+		<% if (dSymUrl && dSymUrl.length>0) {  %>
+		dSYM: <a href="<%= dSymUrl %>"><%= dSymUrl %></a></br>
+		<% } %>
+		<br>
+		<p>Version : <%= cl %></p>
+		<table>
+			<% if (notes) notes.forEach(function(r) { %>
+				<tr><td><%= r.cl %></td><td><%= r.user %></td><td><%= new Date(r.date*1000) %></td><td><%= r.desc %></td></tr>
+			<% })%>
+		</table>
+
+	</body>
+</html>
+
+

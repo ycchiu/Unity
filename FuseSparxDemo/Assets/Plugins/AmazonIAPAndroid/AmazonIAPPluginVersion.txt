@@ -1,0 +1,32 @@
+Amazon IAP Unity Plugin Version 1.1.0
+Amazon IAP Android SDK Version 1.0.3
+
+Amazon IAP SDK:
+https://developer.amazon.com/sdk/in-app-purchasing.html
+
+Unity Plugin Version 1.1.0:
+   Fixed MiniJSON conflict by moving it into AmazonCommon namespace.
+
+Files included:
+
+Assets/Editor/Amazon/AmazonMenuItem.dll
+Assets/Plugins/AmazonIAPLicense.txt
+Assets/Plugins/AmazonIAPNotice.txt
+Assets/Plugins/AmazonIAPPluginVersion.txt
+Assets/Plugins/AmazonCommon/Example/AmazonGUIHelpers.cs
+Assets/Plugins/AmazonCommon/Source/AmazonJavaWrapper.cs
+Assets/Plugins/AmazonCommon/Source/AmazonLogging.cs
+Assets/Plugins/AmazonCommon/Source/MiniJSON/LICENSE.txt
+Assets/Plugins/AmazonCommon/Source/MiniJSON/MiniJSON.cs
+Assets/Plugins/AmazonIAPAndroid/AmazonIAP.cs
+Assets/Plugins/AmazonIAPAndroid/AmazonIAPManager.cs
+Assets/Plugins/AmazonIAPAndroid/AmazonItem.cs
+Assets/Plugins/AmazonIAPAndroid/AmazonReceipt.cs
+Assets/Plugins/AmazonIAPAndroid/demo/AmazonIAPEventListener.cs
+Assets/Plugins/AmazonIAPAndroid/demo/AmazonIAPTestScene.unity
+Assets/Plugins/AmazonIAPAndroid/demo/AmazonIAPUIManager.cs
+Assets/Plugins/AmazonIAPAndroid/Manifest.xml
+Assets/Plugins/AmazonIAPAndroid/Prefabs/AmazonIAPManager.prefab
+Assets/Plugins/Android/amazon.sdktester.json
+Assets/Plugins/Android/AmazonIABPlugin.jar
+Assets/Plugins/Android/in-app-purchasing.jar

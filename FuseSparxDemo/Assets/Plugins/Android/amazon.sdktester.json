@@ -1,0 +1,16 @@
+{
+	"coinpack.tier.2": {
+		"itemType": "CONSUMABLE",
+		"price": "$0.99",
+		"title": "Cannonballs",
+		"description": "Avast! Yarr! Me hearty! Et-cetera!",
+		"smallIconUrl": "http://some/image.jpg"
+	},
+	"coinpack.tier.5": {
+		"itemType": "ENTITLED",
+		"price": "$1.99",
+		"title": "Map Pack",
+		"description": "More levels!",
+		"smallIconUrl": "http://some/image.jpg"
+	}
+}

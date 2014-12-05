@@ -1,0 +1,22 @@
+{
+  "group": "NewRelic",
+  "patches": [],
+  "libs": [
+  ],
+  "frameworks": [
+  	"Plugins/Editor/NewRelic/iOS/NewRelicAgent.framework"
+  ],
+  "files": [
+    "Plugins/Editor/NewRelic/iOS/NewRelicUnityInterface.mm",
+  ],
+  "folders": [
+  ],
+  "headerpaths" : [
+  	"Plugins/Editor/NewRelic/iOS/NewRelicAgent.framework/Headers"
+  ],
+  "frameworksearchpaths": [
+  	"Plugins/Editor/NewRelic/iOS"
+  ]
+  "librarysearchpaths" : [],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

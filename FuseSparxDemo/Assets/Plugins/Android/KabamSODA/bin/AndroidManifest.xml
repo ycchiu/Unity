@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kabam.soda"
+    android:debuggable="true"
+    android:versionCode="0"
+    android:versionName="0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <!--  make network calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--  ask InAppBilling about purchases -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!--  lets us get IMEI, phone #, SIM serial #. (device id) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <application>
+        <activity
+            android:name="com.kabam.soda.SodaActivity"
+            android:icon="@drawable/kabam_soda_button_back_bomb_lt"
+            android:theme="@style/Theme.Kabam">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

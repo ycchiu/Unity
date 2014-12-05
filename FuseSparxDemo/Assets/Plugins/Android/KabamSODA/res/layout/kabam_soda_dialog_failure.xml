@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/kabam_soda_dialog_lightgray" >
+
+    <TextView
+        android:id="@+id/kabam_soda_dialog_failuretitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:textColor="@color/kabam_soda_gold"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/kabam_soda_dialog_failurestroke"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/kabam_soda_dialog_failuretitle"
+        android:background="@drawable/kabam_soda_border_gold"
+        android:orientation="horizontal" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kabam_soda_dialog_failurestroke"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="20dp" >
+
+        <ImageView
+            android:id="@+id/kabam_soda_rewards_badge_lg"
+            android:layout_width="66dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="Image - soda rewards badge large"
+            android:scaleType="center"
+            android:src="@drawable/kabam_soda_rewards_badge_lg" />
+
+        <ImageView
+            android:id="@+id/kabam_soda_ic_fail"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="55dp"
+            android:contentDescription="Image - soda icon fail"
+            android:scaleType="center"
+            android:src="@drawable/kabam_soda_ic_fail" />
+
+        <TextView
+            android:id="@+id/kabam_soda_dialog_failuremessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/kabam_soda_white"
+            android:textColorLink="@color/kabam_soda_link_lightorange" />
+    </FrameLayout>
+
+</RelativeLayout>

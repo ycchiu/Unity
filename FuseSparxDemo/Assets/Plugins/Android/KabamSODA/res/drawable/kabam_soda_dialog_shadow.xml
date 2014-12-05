@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:drawable="@drawable/dialog_full_holo_dark"
+       android:insetTop="25dp"
+       android:insetBottom="5dp"
+       android:insetRight="15dp"
+       android:insetLeft="15dp">
+</inset>

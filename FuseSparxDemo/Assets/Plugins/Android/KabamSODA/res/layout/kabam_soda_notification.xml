@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/kabam_soda_rewards_notification_gradient"
+    android:gravity="top"
+    android:minHeight="48dp"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/kabam_soda_notificationPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/kabam_soda_white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/kabam_soda_rewards_notification_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="1dp"
+        android:paddingTop="5dp"
+        android:contentDescription="bomb"
+        android:src="@drawable/kabam_soda_rewards_notification_badge" />
+    
+    <TextView
+        android:id="@+id/kabam_soda_notificationText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/kabam_soda_white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/kabam_soda_notificationRedeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/kabam_soda_rewards_notification_btn"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:shadowColor="#000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textAlignment="center"
+        android:textColor="@color/kabam_soda_white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

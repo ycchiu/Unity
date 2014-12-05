@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Kabam" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarItemBackground">@drawable/kabam_soda_selectable_background_kabam</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Kabam</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Kabam</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Kabam</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Kabam</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Kabam</item>
+        <item name="android:actionModeBackground">@drawable/kabam_soda_cab_background_top_kabam</item>
+        <item name="android:actionModeSplitBackground">@drawable/kabam_soda_cab_background_bottom_kabam</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Kabam</item>
+        <item name="android:homeAsUpIndicator">@drawable/kabam_soda_spacer_12x24</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Kabam" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@drawable/kabam_soda_ab_solid_kabam</item>
+        <item name="android:backgroundStacked">@drawable/kabam_soda_ab_stacked_solid_kabam</item>
+        <item name="android:backgroundSplit">@drawable/kabam_soda_ab_bottom_solid_kabam</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Kabam</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Kabam" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/kabam_soda_ab_transparent_kabam</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Kabam</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Kabam.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Kabam</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Kabam</item>
+    </style>
+    
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+</resources>

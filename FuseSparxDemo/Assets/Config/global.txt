@@ -1,0 +1,8 @@
+[
+	{
+		"folder":"Assets/Bundles/UITextures",
+		"id":"UI",
+		"type":"copy"
+	}
+
+]

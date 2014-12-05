@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="kabam_soda_pressed">#CCF8661D</color>
+    <color name="kabam_soda_buttongoogle">#DB4A3c</color>
+    <color name="kabam_soda_buttonfacebook">#3B5998</color>
+    <color name="kabam_soda_black">#000000</color>
+    <color name="kabam_soda_blue">#0000FF</color>
+    <color name="kabam_soda_darkgray">#1E1E1E</color>
+    <color name="kabam_soda_footer_darkgray">#333333</color>
+    <color name="kabam_soda_dialog_darkgray">#333333</color>
+    <color name="kabam_soda_dialog_lightgray">#444444</color>
+    <color name="kabam_soda_gold">#FDB812</color>
+    <color name="kabam_soda_green">#00FF00</color>
+    <color name="kabam_soda_lightgray">#262626</color>
+    <color name="kabam_soda_link_gray">#666666</color>
+    <color name="kabam_soda_link_darkorange">#934C29</color>
+    <color name="kabam_soda_link_lightorange">#F26520</color>
+    <color name="kabam_soda_offblack">#1B1B1B</color>
+    <color name="kabam_soda_offwhite">#F0F0F0</color>
+    <color name="kabam_soda_orange">#F26520</color>
+    <color name="kabam_soda_red">#FF4E00</color>
+    <color name="kabam_soda_white">#FFFFFF</color>
+    <color name="kabam_soda_white_translucent">#33FFFFFF</color>
+    <color name="kabam_soda_whitegray">#CCCCCC</color>
+    <color name="kabam_soda_setting_gray">#3C3C3C</color>
+</resources>

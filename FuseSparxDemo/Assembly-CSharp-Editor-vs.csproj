@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BF7E367A-B0F1-353D-2129-F986925915A4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\Audio\AudioCategoryEditor.cs" />
+     <Compile Include="Assets\Editor\Audio\AudioEmitterEditor.cs" />
+     <Compile Include="Assets\Editor\Audio\AudioEventEditor.cs" />
+     <Compile Include="Assets\Editor\Audio\AudioMixEditor.cs" />
+     <Compile Include="Assets\Editor\lwf\LWFObjectInspector.cs" />
+     <Compile Include="Assets\Editor\lwf\ngui\UILWFObjectFragmentInspector.cs" />
+     <Compile Include="Assets\Editor\lwf\ngui\UILWFObjectInspector.cs" />
+     <Compile Include="Assets\Facebook\Editor\FacebookPostprocess.cs" />
+     <Compile Include="Assets\Facebook\Editor\FacebookSettingsEditor.cs" />
+     <Compile Include="Assets\Facebook\Editor\android\FacebookAndroidUtil.cs" />
+     <Compile Include="Assets\Facebook\Editor\android\ManifestMod.cs" />
+     <Compile Include="Assets\Facebook\Editor\iOS\FixupFiles.cs" />
+     <Compile Include="Assets\Facebook\Editor\iOS\PlistMod.cs" />
+     <None Include="Assets\UI\atlasConfig.txt" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\bools.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\NGUI\ReadMe - 3.5.5.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\WarpReplacement.shader" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_BloomWarp.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_pressed_background_kabam.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_Colored_Mask_SoftClip.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_search_dropdown_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\strings.xml" />
+     <None Include="Assets\Scripts\UI\Flash\lwf\Resources\LWFPreMultipliedAlpha.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_getmoregames.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_Vignette.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_confirmredeem.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_rewards.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_faq.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_selectable_background_kabam.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_ic_clear_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_notification.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_ab_background_textured_kabam.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_border_green.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_screen.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_redeem_listitem.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values\kabam_soda_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_spinner_ab_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\ids.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v14\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_faq_listitem.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_VignetteBloom.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_marketingemail.xml" />
+     <None Include="Assets\Resources\version.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\oauth-android\build.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.Sparx\Resources\profanity.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_view_list_nav_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_navdrawer_listitem.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w480dp\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_decor_overlay.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\menu\kabam_soda_menu_rewards.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\build.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values-sw600dp\kabam_soda_dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_item_background_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w500dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_selectable_faq_arrow_icon.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_feedback.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_decor.xml" />
+     <None Include="Assets\Config\global.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\strings.xml" />
+     <None Include="Assets\Plugins\AmazonIAPAndroid\AmazonIAPNotice.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_title_item.xml" />
+     <None Include="Assets\Plugins\WP8\Newtonsoft.Json.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_menu_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_background_transition_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+     <None Include="Assets\Plugins\Android\oauth-android\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_out_bottom.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Opaque.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_rewards_notification_gradient.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Editor\P4Connect\readme.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_border_black.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v11\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\strings.xml" />
+     <None Include="Assets\Resources\BuildConfig.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_dialog_failure.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\custom_rules.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Plugins\AmazonIAPAndroid\AmazonIAPLicense.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODAUnity\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_border_offwhite.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\support_simple_spinner_dropdown_item.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_SoftClip.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values-v11\kabam_soda_styles.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\LensFlare\Resources\LensFlare.shader" />
+     <None Include="Assets\Plugins\Fuse\EB.Sparx\Resources\Languages\en\sparx.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\oauth-android\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_activity_chooser_view_list_item.xml" />
+     <None Include="Assets\Config\extended\download.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\build.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_ic_clear.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.Sparx\Resources\Certs\accounts.txt" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_radio.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_redeem_auth.xml" />
+     <None Include="Assets\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_tab.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sw600dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values\kabam_soda_dimens.xml" />
+     <None Include="Assets\Scripts\UI\Flash\lwf\Resources\BitmapFont.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-be\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_maintenance.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w600dp\dimens.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PlanarReflection\Resources\ReflectionBlur.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_search_dropdown_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\dimens.xml" />
+     <None Include="Assets\Resources\Certs\sandbox.txt" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_icon.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\README.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w480dp\bools.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_Bloom.shader" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\PostFXComposite.cginc" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_tab_indicator_ab_holo.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_progress_horizontal_kabam.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout-v11\abc_action_bar_decor.xml" />
+     <None Include="Assets\Plugins\Editor\Fuse\Build\Email\androidbuild.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-xlarge\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_dialog_frame.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_VignetteBloomWarp.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_checkbox.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_Colored_HardClip.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_item_background_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_mode_close_item.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_tabbar.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\lint.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_textfield_searchview_holo_dark.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_dialog_shadow.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout-land\kabam_soda_howitworks.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard-project.txt" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v14\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_search_dropdown_item_icons_2line.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_redeem.xml" />
+     <None Include="Assets\Scripts\UI\Flash\lwf\Resources\SystemFont.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_redeem_listitem_button_disabled.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_Colored_Mask.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_activity_chooser_view.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values\analytics.xml" />
+     <None Include="Assets\Plugins\ChartBoostAndroid\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_rewards_summary.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_border_gold.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_lightgray_repeat.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values\kabam_soda_colors.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout-v14\abc_activity_chooser_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_mode_bar.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values\kabam_soda_arrays.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.Sparx\Resources\Certs\sparxcdn.txt" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_HardClip.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_rewards_points.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Opaque_Colored.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_activity_chooser_view_include.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_search_view.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_layout.xml" />
+     <None Include="Assets\Scripts\UI\Flash\lwf\Resources\LWFNormal.shader" />
+     <None Include="Assets\Plugins\AmazonIAPAndroid\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\themes.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\GaussianBlur.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w720dp\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_decor_include.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_VignetteWarp.shader" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_redeem_listitem_button.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_expanded_menu_layout.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Additive_Colored.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values-v14\kabam_soda_styles.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sw600dp\config.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values\kabam_soda_styles.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODAUnity\build.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_settings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODAUnity\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_settings_connect.xml" />
+     <None Include="Assets\UI\Screens\TestLuaScreen\Test_OnClick.lua.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_rewards_notification_btn.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_home.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_border_lightgray.xml" />
+     <None Include="Assets\Resources\UI\Screens\TestLuaScreen\Test_OnClick.lua.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_in_top.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\values-sw720dp-land\kabam_soda_dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_textfield_searchview_right_holo_dark.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Plugins\Fuse_Rendering\PostFX\Resources\EBG_PostFX_Warp.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v11\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_rewards_listitem.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_search_url_text_holo.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\dimens.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Additive.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w360dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_chestbg_bitmap.xml" />
+     <None Include="Assets\Plugins\Android\oauth-android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_textfield_searchview_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\AmazonCommon\Source\MiniJSON\LICENSE.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_textfield_searchview_right_holo_light.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\Trails\Resources\Trail.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_in_bottom.xml" />
+     <None Include="Assets\Plugins\Editor\Fuse\Build\Email\contentbuild.txt" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_drop_shadow_list_header.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_dialog_success.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_background_transition_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_howitworks.xml" />
+     <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\build.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\proguard-project.txt" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Plugins\KabamSODA\version.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-xlarge\bools.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_Colored.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_spinner_ab_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Plugins\Editor\Fuse\Build\Email\submissionbuild.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Plugins\Fuse_Rendering\MipVisualization\Resources\MipVis.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_tab_indicator_ab_kabam.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_faq_title.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_popup_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\anim\slide_in.xml" />
+     <None Include="Assets\Plugins\Fuse\EB.UI\Resources\UI\Blend_Colored_SoftClip.shader" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\config.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_btn_cab_done_kabam.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\drawable\kabam_soda_spinner_background_ab_kabam.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\oauth-android\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_out_top.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\anim\slide_out.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\bools.xml" />
+     <None Include="Assets\Resources\UI\atlasConfig.txt" />
+     <None Include="Assets\Resources\Shaders\Trail.shader" />
+     <None Include="Assets\Plugins\AmazonIAPAndroid\AmazonIAPPluginVersion.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\KabamSODA\res\layout\kabam_soda_rewards_footer.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\oauth-android\custom_rules.xml" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="MATWP8">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/MATWP8.dll</HintPath>
+ </Reference>
+ <Reference Include="crypto">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/BouncyCastle/crypto.dll</HintPath>
+ </Reference>
+ <Reference Include="AmazonMenuItem">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/Editor/Amazon/AmazonMenuItem.dll</HintPath>
+ </Reference>
+ <Reference Include="p4api.net">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/Editor/P4Connect/p4api.net.dll</HintPath>
+ </Reference>
+ <Reference Include="P4Connect">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/Editor/P4Connect/P4Connect.dll</HintPath>
+ </Reference>
+ <Reference Include="IFacebook">
+ <HintPath>/Users/ychiu/0_KabamWork/Unity/FuseSparxDemo/Assets/Plugins/Facebook/IFacebook.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{7668F7D6-20BE-7AE0-31CE-B86895F4AF77}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{D25BE199-E435-CB6B-AD69-674A50F570A4}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
+      <Project>{81D395F6-A705-92B6-3C79-97432BCEFD11}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
