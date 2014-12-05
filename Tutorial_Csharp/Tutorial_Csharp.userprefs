@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyHealth.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAI.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerHealth.cs" Line="5" Column="2" />
       <File FileName="Assets/Scripts/EnemyHealth.cs" Line="38" Column="3" />
+      <File FileName="Assets/Scripts/EnemyAI.cs" Line="32" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
