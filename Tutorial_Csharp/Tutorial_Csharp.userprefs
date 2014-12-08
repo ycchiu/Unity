@@ -1,13 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Targetting.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterClasses/ModifiedStat.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerHealth.cs" Line="5" Column="2" />
-      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemyAI.cs" Line="36" Column="4" />
-      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="27" Column="27" />
-      <File FileName="Assets/Scripts/EnemyAttack.cs" Line="38" Column="29" />
-      <File FileName="Assets/Scripts/Targetting.cs" Line="19" Column="18" />
+      <File FileName="Assets/Scripts/CharacterClasses/BaseStat.cs" Line="33" Column="28" />
+      <File FileName="Assets/Scripts/CharacterClasses/Attribute.cs" Line="13" Column="7" />
+      <File FileName="Assets/Scripts/CharacterClasses/ModifiedStat.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

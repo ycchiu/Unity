@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CharacterClasses\Attribute.cs" />
+     <Compile Include="Assets\Scripts\CharacterClasses\BaseStat.cs" />
+     <Compile Include="Assets\Scripts\CharacterClasses\ModifiedStat.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
