@@ -13,12 +13,16 @@ public class ModifiedStat : BaseStat {
 		_mods.Add (mod);
 	}
 
+	public void Update() {
+	}
+
 	private void CalculateModValue() {
 		_modValue = 0;
 
 		if (_mods.Count > 0) {
-			foreach(ModifyingAttribute att in _mods) 
-				_modValue += (int)(att.attribute.AdjustedValue * att.ratio);
+			foreach(ModifyingAttribute att in _mods){ 
+				_modValue += (int)(att.attribute.AdjustedBaseValue * att.ratio);
+			}
 		}
 	}
 }
@@ -26,4 +30,9 @@ public class ModifiedStat : BaseStat {
 public struct ModifyingAttribute {
 	public Attribute attribute;
 	public float ratio;
+
+	public ModifyingAttribute(Attribute att, float r) {
+		attribute = att;
+		ratio = r;
+	}
 }
