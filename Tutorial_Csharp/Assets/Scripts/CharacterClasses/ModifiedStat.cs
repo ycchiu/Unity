@@ -18,15 +18,19 @@ public class ModifiedStat : BaseStat {
 		CalculateModValue();
 	}
 
+	public new int AdjustedBaseValue {
+		get{ return BaseValue + _modValue; }
+	}
+
+
+
 	private void CalculateModValue() {
 		_modValue = 0;
 
 		if (_mods.Count > 0) {
 			foreach(ModifyingAttribute att in _mods){ 
 				_modValue += (int)(att.attribute.AdjustedBaseValue * att.ratio);
-				Debug.Log("============   att.attribute = " + att.attribute.AdjustedBaseValue + "  ratio = " + att.ratio + "  modValue =" + _modValue);
 			}
-			Debug.Log("\n");
 		}
 	}
 }
