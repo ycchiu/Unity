@@ -19,13 +19,17 @@ public class ModifiedStat : BaseStat {
 	}
 
 	public string GetModifyingAttributesString () {
-		string temp;
+		string temp = "";
 
 		for(int cnt = 0; cnt < _mods.Count; cnt++) {
-			UnityEngine.Debug.Log (">> ModifiedStat.cs,  _mods[" + cnt + "]: " + _mods[cnt].attribute.Name + " = " + _mods[cnt] );
-		}
+			temp += _mods[cnt].attribute.Name + "_" + _mods[cnt]. ratio;
 
-		return "";
+			if(cnt < _mods.Count-1) {
+				temp += "|";
+			}
+		}
+		//UnityEngine.Debug.Log(temp);
+		return temp;
 	}
 
 	public new int AdjustedBaseValue {
