@@ -32,6 +32,18 @@ public class GameSettings : MonoBehaviour {
 			PlayerPrefs.SetInt( ((AttributeName)cnt).ToString() + " - Base Value", pcClass.GetPrimaryAttribute(cnt).BaseValue );
 			PlayerPrefs.SetInt( ((AttributeName)cnt).ToString() + " - Exp To Level", pcClass.GetPrimaryAttribute(cnt).ExpToLevel );
 		}
+
+		for(int cnt = 0; cnt < Enum.GetValues(typeof(VitalName)).Length; cnt++) {
+			PlayerPrefs.SetInt( ((VitalName)cnt).ToString() + " - Base Value", pcClass.GetVital(cnt).BaseValue );
+			PlayerPrefs.SetInt( ((VitalName)cnt).ToString() + " - Exp To Level", pcClass.GetVital(cnt).ExpToLevel );
+			PlayerPrefs.SetInt( ((VitalName)cnt).ToString() + " - Current Value", pcClass.GetVital(cnt).CurValue );
+		}
+
+//		for(int cnt = 0; cnt < Enum.GetValues(typeof(SkillName)).Length; cnt++) {
+//			PlayerPrefs.SetInt( ((SkillName)cnt).ToString() + " - Base Value", pcClass.GetSkill(cnt).BaseValue );
+//			PlayerPrefs.SetInt( ((SkillName)cnt).ToString() + " - Exp To Level", pcClass.GetSkill(cnt).ExpToLevel );
+//			PlayerPrefs.SetInt( ((SkillName)cnt).ToString() + " - Current Value", pcClass.GetSkill(cnt).CurValue );
+//		}
 	}
 
 	public void LoadCharacterData () {

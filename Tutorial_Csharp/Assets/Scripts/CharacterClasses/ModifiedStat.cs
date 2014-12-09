@@ -18,6 +18,16 @@ public class ModifiedStat : BaseStat {
 		CalculateModValue();
 	}
 
+	public string GetModifyingAttributesString () {
+		string temp;
+
+		for(int cnt = 0; cnt < _mods.Count; cnt++) {
+			UnityEngine.Debug.Log (">> ModifiedStat.cs,  _mods[" + cnt + "]: " + _mods[cnt].attribute.Name + " = " + _mods[cnt] );
+		}
+
+		return "";
+	}
+
 	public new int AdjustedBaseValue {
 		get{ return BaseValue + _modValue; }
 	}

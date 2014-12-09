@@ -109,6 +109,8 @@ public class CharacterGenerator : MonoBehaviour {
 		{
 			GameSettings gsScript = GameObject.Find("__GameSettings").GetComponent<GameSettings>();
 
+
+			//Change the current value of the vitals to the max modified value of that vital
 			gsScript.SaveCharacterData();
 
 			Application.LoadLevel("FirstTestScene");
