@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterClasses/BaseCharacter.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterClasses/CharacterGenerator.cs">
     <Files>
-      <File FileName="Assets/Scripts/CharacterClasses/Skill.cs" Line="22" Column="16" />
-      <File FileName="Assets/Scripts/CharacterClasses/BaseCharacter.cs" Line="13" Column="2" />
+      <File FileName="Assets/Scripts/CharacterClasses/ModifiedStat.cs" Line="22" Column="12" />
+      <File FileName="Assets/Scripts/CharacterClasses/BaseCharacter.cs" Line="134" Column="3" />
+      <File FileName="Assets/Scripts/CharacterClasses/CharacterGenerator.cs" Line="67" Column="94" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

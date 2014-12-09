@@ -85,12 +85,14 @@ public class BaseCharacter : MonoBehaviour {
 		for( int cnt = 0; cnt < _vital.Length; cnt++ ) {
 			_vital[cnt] = new Vital();
 		}
+		SetupVitalModifier();
 	}
 	
 	private void SetupSkills() {
 		for( int cnt = 0; cnt < _skill.Length; cnt++ ) {
 			_skill[cnt] = new Skill();
 		}
+		SetupSkillModifier();
 	}
 
 
@@ -129,6 +131,7 @@ public class BaseCharacter : MonoBehaviour {
 		//Ranged Defence
 		GetSkill((int)SkillName.Ranged_Defence).AddModifier( new ModifyingAttribute(GetPrimaryAttribute((int)AttributeName.Speed), 0.33f) );
 		GetSkill((int)SkillName.Ranged_Defence).AddModifier( new ModifyingAttribute(GetPrimaryAttribute((int)AttributeName.Nimbleness), 0.33f) );
+
 	}
 
 

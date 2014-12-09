@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class ModifiedStat : BaseStat {
 	private List<ModifyingAttribute> _mods;		//A listof Attributes that modify this stat
@@ -14,6 +15,7 @@ public class ModifiedStat : BaseStat {
 	}
 
 	public void Update() {
+		CalculateModValue();
 	}
 
 	private void CalculateModValue() {
@@ -22,7 +24,9 @@ public class ModifiedStat : BaseStat {
 		if (_mods.Count > 0) {
 			foreach(ModifyingAttribute att in _mods){ 
 				_modValue += (int)(att.attribute.AdjustedBaseValue * att.ratio);
+				Debug.Log("============   att.attribute = " + att.attribute.AdjustedBaseValue + "  ratio = " + att.ratio + "  modValue =" + _modValue);
 			}
+			Debug.Log("\n");
 		}
 	}
 }
