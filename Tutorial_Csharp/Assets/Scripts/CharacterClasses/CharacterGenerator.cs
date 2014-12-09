@@ -19,14 +19,19 @@ public class CharacterGenerator : MonoBehaviour {
 	private int _pointsLeft;
 
 	public GUIStyle myStyle;
-	public GUISkin mySkin;
+//	public GUISkin mySkin;
+	public GameObject playerPrefab;
 
 
 
 	// Use this for initialization
 	void Start () {
-		_toon = new PlayerCharacter();
-		_toon.Awake();
+		GameObject pc = Instantiate(playerPrefab, Vector3.zero, Quaternion.identity) as GameObject;
+		pc.name = "pc";
+
+		_toon = pc.GetComponent<PlayerCharacter>();
+//		_toon = new PlayerCharacter();
+//		_toon.Awake();
 
 		_pointsLeft = STARTING_POINTS;
 		for(int cnt = 0; cnt < Enum.GetValues(typeof(AttributeName)).Length; cnt++) 
@@ -42,13 +47,14 @@ public class CharacterGenerator : MonoBehaviour {
 	}
 
 	void OnGUI() {
-		GUI.skin = mySkin;
-
 		DisplayName();
 		DisplayPointsLeft();
 		DisplayAttributes();
 		DisplayVitals();
 		DisplaySkills();
+
+		//Add an "Create" button
+		DisplayCreateButton();
 	}
 
 	private void DisplayName() {
@@ -97,4 +103,16 @@ public class CharacterGenerator : MonoBehaviour {
 	private void DisplayPointsLeft() {
 		GUI.Label(new Rect(255, 10, 100, 25), "Points Left: "+_pointsLeft );
 	}
+
+	private void DisplayCreateButton () {
+		if( GUI.Button(new Rect(Screen.width/2 - 100, POSITION_Y + 10 * LINE_HEIGHT, STAT_LABEL_WIDTH + 60,	LINE_HEIGHT), "Create") )
+		{
+			GameSettings gsScript = GameObject.Find("__GameSettings").GetComponent<GameSettings>();
+
+			gsScript.SaveCharacterData();
+
+			Application.LoadLevel("FirstTestScene");
+		}
+	}
+
 }
