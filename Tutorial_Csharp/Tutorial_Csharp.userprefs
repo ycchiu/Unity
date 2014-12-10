@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameMaster.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterClasses/CharacterGenerator.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameMaster.cs" Line="10" Column="68" />
+      <File FileName="Assets/Scripts/GameSettings.cs" Line="23" Column="55" />
+      <File FileName="Assets/Scripts/CharacterClasses/CharacterGenerator.cs" Line="32" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
