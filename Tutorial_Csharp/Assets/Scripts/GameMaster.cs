@@ -3,6 +3,7 @@ using System.Collections;
 
 public class GameMaster : MonoBehaviour {
 	public GameObject playerCharacter;
+	public GameObject gameSettings;
 	public Camera mainCamera;
 
 	public float zOffset;
@@ -10,10 +11,14 @@ public class GameMaster : MonoBehaviour {
 	public float xRotation;
 
 	private GameObject _pcCached;
+	private PlayerCharacter _pcScript;
 
 	// Use this for initialization
 	void Start () {
 		_pcCached = Instantiate(playerCharacter, Vector3.zero, Quaternion.identity) as GameObject;
+		_pcCached.name = "pc";
+
+		_pcScript = _pcCached.GetComponent<PlayerCharacter>();
 
 		zOffset = -2.5f;
 		yOffset = 2.0f;
@@ -24,6 +29,20 @@ public class GameMaster : MonoBehaviour {
 		                                             _pcCached.transform.position.z + zOffset);
 		mainCamera.transform.Rotate (xRotation, 0, 0);
 
+		LoadCharacter ();
+
+	}
+
+	public void LoadCharacter () {
+		GameObject gs = GameObject.Find ("__GameSettings");
+
+		if (gs == null) {
+			gs = Instantiate(gameSettings, Vector3.zero, Quaternion.identity) as GameObject;
+			gs.name = "__GameSettings";
+		}
+
+		//GameSettings gsScript = gs.GetComponent<GameSettings> ();
+		GameSettings gsScript = GameObject.Find ("__GameSettings").GetComponent<GameSettings> ();
 	}
 	
 	// Update is called once per frame

@@ -124,7 +124,7 @@ public class CharacterGenerator : MonoBehaviour {
 			//Change the current value of the vitals to the max modified value of that vital
 			gsScript.SaveCharacterData();
 
-			Application.LoadLevel("FirstTestScene");
+			Application.LoadLevel("Level1");
 		}
 	}
 
