@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GameMaster : MonoBehaviour {
 	public GameObject playerCharacter;
-	public GameObject gameSettings;
+	public GameObject gameSettings;    //the prefab_GameSettings and CharacterGeneration
 	public Camera mainCamera;
 
 	public float zOffset;
@@ -15,7 +15,9 @@ public class GameMaster : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		_pcCached = Instantiate(playerCharacter, Vector3.zero, Quaternion.identity) as GameObject;
+
+		//                                       Vector3.zero = the (0,0,0) in the world. Quaternion.identity = facing forward
+		_pcCached = Instantiate(playerCharacter, Vector3.zero, Quaternion.identity) as GameObject; 
 		_pcCached.name = "pc";
 
 		_pcScript = _pcCached.GetComponent<PlayerCharacter>();
@@ -41,8 +43,9 @@ public class GameMaster : MonoBehaviour {
 			gs.name = "__GameSettings";
 		}
 
-		//GameSettings gsScript = gs.GetComponent<GameSettings> ();
-		GameSettings gsScript = GameObject.Find ("__GameSettings").GetComponent<GameSettings> ();
+		GameSettings gsScript = gs.GetComponent<GameSettings> ();
+		//GameSettings gsScript = GameObject.Find ("__GameSettings").GetComponent<GameSettings> ();
+		gsScript.LoadCharacterData();
 	}
 	
 	// Update is called once per frame

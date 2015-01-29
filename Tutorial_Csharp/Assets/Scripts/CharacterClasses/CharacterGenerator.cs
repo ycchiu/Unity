@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 public class CharacterGenerator : MonoBehaviour {
-	private const int STARTING_POINTS = 70;				//The amount player can used to customize skills/attritubes
+	private const int STARTING_POINTS = 10;				//The amount player can used to customize skills/attritubes
 	private const int MIN_STARTING_ATTRIBUTE_VALUE = 10;	
 	private const int STARTING_VALUE = 50;					//The init value for each attritubes
 	
